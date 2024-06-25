@@ -1,34 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Meliza González</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Currículum</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    .container {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    .section {
+        margin-bottom: 25px;
+    }
+    .section h2 {
+        border-bottom: 2px solid #333;
+        padding-bottom: 5px;
+        color: #333;
+    }
+    .subsection {
+        margin-bottom: 15px;
+    }
+    .subsection h3 {
+        margin-bottom: 10px;
+        color: #333;
+    }
+    .subsection ul {
+        margin-top: 0;
+        padding-left: 20px;
+    }
+</style>
 </head>
 <body>
-    <header>
-        <h1>Meliza González</h1>
-        <p>Estudiante</p>
-    </header>
-
-    <section class="informacion">
-        <h2>Información Personal</h2>
-        <ul>
-            <li><strong>Edad:</strong> 23 años</li>
-            <li><strong>Experiencia:</strong> Experiencia en caja</li>
-        </ul>
-    </section>
-
-    <section class="contacto">
-        <h2>Contacto</h2>
-        <ul>
-            <li><strong>Número:</strong> 0972640627</li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Meliza González. Todos los derechos reservados.</p>
-    </footer>
-</body>
-</html>
+    <div class="container">
+        <header>
+            <h1>Mi Currículum</h1>
+        </header>
+        <section class="section">
+            <h2>Información Personal</h2>
+            <div class="subsection">
+                <h3>Nombre:</h3>
+                <p>Tu Nombre Completo</p>
+            </div>
+            <div class="subsection">
+                <h3>Correo Electrónico:</h3>
+                <p>tucorreo@example.com</p>
+            </div>
+            <div class="subsection">
+                <h3>Teléfono:</h3>
+                <p>(123) 456-7890</p>
+            </div>
+        </section>
+        <section class="section">
+            <h2>Educación</h2>
+            <div class="subsection">
+                <h3>Título Universitario:</h3>
+                <p>Nombre del Título, Nombre de la Universidad, Año de Graduación</p>
+            </div>
+            <div class="subsection">
+                <h3>Formación Adicional:</h3>
+                <ul>
+                    <li>Curso X en Institución Y, Año</li>
+                    <li>Curso Z en Institución W, Año</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section">
+            <h
