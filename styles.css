@@ -1,12 +1,55 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
 }
-h1{
-    color:#110708;
-    font-size:50px;
-} 
-body{
-    background-color:rgb(255, 255, 255);
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para las secciones y subsecciones */
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+.subsection {
+    margin-bottom: 15px;
+}
+
+.subsection h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Estilos específicos para listas y detalles */
+
+ul {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
 }
