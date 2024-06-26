@@ -20,8 +20,6 @@ h1 {
     color: #333;
 }
 
-/* Estilos para las secciones y subsecciones */
-
 .section {
     margin-bottom: 25px;
 }
@@ -40,8 +38,6 @@ h1 {
     margin-bottom: 10px;
     color: #333;
 }
-
-/* Estilos específicos para listas y detalles */
 
 ul {
     margin-top: 0;
