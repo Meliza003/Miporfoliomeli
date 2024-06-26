@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
-    padding: 20px;
+    padding: 18px;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 750px;
     margin: auto;
     background: #fff;
     padding: 20px;
